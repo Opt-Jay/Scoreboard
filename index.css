@@ -1,0 +1,73 @@
+@font-face {
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+    font-family: "Cursed Timer Ulil";
+}
+
+.score, .add-to-home, .add-to-guest {
+    font-family: "Cursed Timer Ulil";
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: flex-start;  /* aligns to the top */
+    height: 100vh; /* full viewport height */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    border-radius: 15px;
+    border: 7px solid #9AABD8;
+}
+
+#items-home, #items-guest {
+    color: #EEEEEE;
+    font: bold 40px verdana;
+}
+
+#home-txt, #guest-txt {
+    text-align: center;
+}
+
+#home-score, #guest-score {
+    width: 140px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font: bold 80px Cursed Timer ULiL;
+    text-align: center;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+
+h1, h2, h3, p { margin: 0; }
+
+.add-to-home, .add-to-guest {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#add-one-home, #add-two-home, #add-three-home, 
+#add-one-guest, #add-two-guest, #add-three-guest {
+    border: 1px solid #9AABD8;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: "Cursed Timer Ulil";
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline: 5px;
+}
